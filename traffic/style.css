@@ -1,0 +1,50 @@
+body {
+    background: rgb(153, 224, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.trafficlight {
+    background: black;
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.red,
+.yellow,
+.green {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+}
+
+.red {
+    background: rgba(255, 0, 0, 0.377);
+}
+
+.yellow {
+    background-color: rgba(212, 212, 2, 0.425);
+}
+
+.green {
+    background-color: rgba(0, 128, 0, 0.534);
+}
+
+.red:hover {
+    background: red;
+}
+
+.yellow:hover {
+    background: yellow;
+}
+
+.green:hover {
+    background: rgb(24, 228, 24);
+}
